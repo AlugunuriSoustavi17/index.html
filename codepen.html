@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitly</title>
+
+
+<style>
+    
+    body{
+         background-color: rgb(230, 220, 245);
+    padding: 20px;
+    
+    }
+    header{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    }
+    header ul{
+        padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    }
+    h1{
+        color:orange;
+    }
+
+h2{
+    color:red;
+}
+
+ h3{ 
+    color:blue;
+ }
+p{
+    color:green;
+}
+.stats-box{
+
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    border: 2px solid black;
+    background-color:yellowgreen;
+    width: 200px;
+}
+ .activity-card{
+       padding: 20px;
+       margin: 20px;
+       border-radius: 8px;
+       box-sizing: content-box;
+       border: 2px solid black;
+       background-color: rgb(50, 122, 205);
+       width: 200px;
+   }
+.stats-box,
+   .activity-card{
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+.weekly{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+}
+.week-days p{
+
+
+    
+    
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    width: 120px;
+    text-align: center;
+    border: 2px solid rgb(211, 118, 31);
+    background-color: white;
+}
+.week-days{
+    display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+}
+.footer{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-sizing: content-box;
+    width: 120px;
+    text-align: center;
+    border: 2px solid rgb(143, 31, 31);
+    background-color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+    <h1>Habitly</h1>
+    <ul>
+        <li><a href = "#dashboard">Dashboard</a></li>
+        <li><a href = "#activity-card"> activity-card</a></li>
+        <li><a href = "#weekly">weekly</a></li>
+    </ul>
+</header>
+
+<section class="Welcome" id="dashboard">
+    <h2>Good Morning</h2>
+    <h3>Today Count</h3>
+    <p>Start with positivity</p>
+</section>
+
+<section class="stats-container" id="stats-container">
+
+<div class="stats-box">
+<h2>7</h2>
+<p>Total Habits</p>
+</div>
+
+<div class="stats-box">
+<h2>4</h2>
+<p>Completed</p>
+</div>
+
+<div class="stats-box">
+<h2>75%</h2>
+<p>Progress</p>
+</div>
+
+<div class="stats-box">
+<h2>5</h2>
+<p>Streaks</p>
+</div>
+</section>
+
+<section class="activity-card" id="activity-card">
+
+<div class="activity-card">
+<h2>Drinking Water</h2>
+<p>Stay Hydrated</p>
+</div>
+
+<div class="activity-card">
+<h2>Exercise</h2>
+<p>Completed</p>
+</div>
+
+<div class="activity-card">
+<h2>Reading</h2>
+<p>Not Completed</p>
+</div>
+
+</section>
+
+<section class="weekly" id="weekly">
+<h2>weekly progress</h2>
+<div class="week-days">
+<p>Monday <br>completed </p>
+<p>tuesday <br>completed </p>
+<p>wednesday <br>completed </p>
+<p>thursday <br> pending </p>
+<p>friday <br> pending</p>
+<p>saturday <br> pending </p>
+<p>sunday <br> pending</p>
+
+</div>
+</section>
+<footer>
+    <p>
+        &copy:build a better habit
+    </p>
+</footer>
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
